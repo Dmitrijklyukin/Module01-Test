@@ -33,12 +33,15 @@ ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+  gap: 30px;
 }
 ul > li:not(:last-child) {
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 .link {
+  display: block;
+  text-align: center;
   background: rebeccapurple;
   color: white;
   padding: 8px 15px;
@@ -55,6 +58,10 @@ ul > li:not(:last-child) {
 }
 .post {
   padding-bottom: 20px;
+}
+.results {
+  display: flex;
+  gap: 10px;
 }
 section {
   background-color: lavender;
